@@ -1,0 +1,8 @@
+.edu-bg {
+    background-color: #835E54;
+    height: auto;
+    min-height: 60vh; /* đảm bảo rằng container có ít nhất một chiều cao tối thiểu */
+    padding-left: 20%;
+    padding-right: 20%;
+} 
+
