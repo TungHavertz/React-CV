@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-CV/static/css/main.026e5216.css",
+    "main.js": "/React-CV/static/js/main.31ed9cfc.js",
+    "static/js/453.a5f36ace.chunk.js": "/React-CV/static/js/453.a5f36ace.chunk.js",
+    "static/media/anh6.jpg": "/React-CV/static/media/anh6.f2a62f248c095b92ba82.jpg",
+    "static/media/respon.png": "/React-CV/static/media/respon.06e64639f38ba1e4b8a1.png",
+    "static/media/js.png": "/React-CV/static/media/js.565c3db1272e4ab53f8d.png",
+    "static/media/html.png": "/React-CV/static/media/html.fd4f5c7c06b5139a532d.png",
+    "static/media/anh8.jpg": "/React-CV/static/media/anh8.32b842b9d9aeacc4f14e.jpg",
+    "static/media/anh4.jpg": "/React-CV/static/media/anh4.bbcfe872d1829afefe8e.jpg",
+    "static/media/anh3.jpg": "/React-CV/static/media/anh3.627d5d74b705c6d843b6.jpg",
+    "static/media/Competence.png": "/React-CV/static/media/Competence.32a434f74a23c2b4f736.png",
+    "index.html": "/React-CV/index.html",
+    "main.026e5216.css.map": "/React-CV/static/css/main.026e5216.css.map",
+    "main.31ed9cfc.js.map": "/React-CV/static/js/main.31ed9cfc.js.map",
+    "453.a5f36ace.chunk.js.map": "/React-CV/static/js/453.a5f36ace.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.026e5216.css",
+    "static/js/main.31ed9cfc.js"
+  ]
+}
