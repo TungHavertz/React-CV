@@ -11,7 +11,7 @@
 }
 
 .intro-img {
-    background-image: url(../image/anh3.jpg);
+    background-image: url(../../image/anh3.jpg);
     background-size: cover;
     width: 26%;
     height: 80%;
@@ -28,7 +28,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../image/anh8.jpg); /* Ảnh thứ hai */
+    background-image: url(../../image/anh8.jpg); /* Ảnh thứ hai */
     background-size: cover;
     border-radius: 50%; /* Giữ hình tròn */
     opacity: 0; /* Ẩn ban đầu */

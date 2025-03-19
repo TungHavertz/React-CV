@@ -1,10 +1,10 @@
 /* Định nghĩa biến màu sắc */
 :root {
-    --primary-bg-color: #af8c83; /* Màu nền và viền chính */
-    --secondary-bg-color: black; /* Màu nền phụ */
-    --primary-text-color: black; /* Màu chữ chính */
-    --secondary-text-color: #af8c83; /* Màu chữ phụ */
-    --overlay-color: rgba(0, 0, 0, 0.4); /* Màu lớp phủ */
+    --primary-bg-color: #af8c83; 
+    --secondary-bg-color: black; 
+    --primary-text-color: black; 
+    --secondary-text-color: #af8c83; 
+    --overlay-color: rgba(0, 0, 0, 0.4); 
 }
 
 /* Nav */
@@ -14,7 +14,7 @@
 }
 
 .nav-img {
-    background-image: url(../image/anh4.jpg);
+    background-image: url(../../image/anh4.jpg);
     background-color: var(--secondary-bg-color);
     height: 60vh;
     position: relative;
@@ -35,33 +35,33 @@
 /* Gộp các thuộc tính chung cho nút */
 .nav-btn1, .nav-btn2 {
     transform: scale(1); /* Kích thước ban đầu */
-    transition: transform 0.6s ease-in-out; /* Hiệu ứng chuyển đổi áp dụng cho cả hai trạng thái */
+    transition: transform 0.6s ease-in-out !important; /* Hiệu ứng chuyển đổi áp dụng cho cả hai trạng thái */
 }
 
 /* nav-btn1 */
 .nav-btn1 {
-    background-color: var(--primary-bg-color);
-    border-color: var(--primary-bg-color);
-    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color) !important;
+    border-color: var(--primary-bg-color) !important;
+    color: var(--primary-text-color) !important;
 }
 
 .nav-btn1:hover {
     background-color: var(--primary-bg-color);
     border-color: var(--primary-bg-color);
     color: var(--primary-text-color);
-    transform: scale(1.04); /* Phóng to khi hover */
+    transform: scale(1.04); 
 }
 
 /* nav-btn2 */
 .nav-btn2 {
-    background-color: var(--secondary-bg-color);
-    border-color: var(--primary-bg-color);
-    color: var(--secondary-text-color);
+    background-color: var(--secondary-bg-color) !important;
+    border-color: var(--primary-bg-color) !important;
+    color: var(--secondary-text-color) !important;
 }
 
 .nav-btn2:hover {
     background-color: var(--secondary-bg-color);
     border-color: var(--primary-bg-color);
     color: var(--secondary-text-color);
-    transform: scale(1.04); /* Phóng to khi hover */
+    transform: scale(1.04); 
 }

@@ -1,11 +1,11 @@
 // src/components/Object.js
 import React from 'react';
 
-import '../styles/object.css';
-import '../styles/animations.css';
-import useFadeIn from '../hooks/useFadeIn.js';
-import ObjectItem from '../itemComponents/ObjectItem.js'; // Đường dẫn tùy thuộc thư mục bạn chọn
-import objectData from '../data/objectData.js';
+import './object.css';
+import '../../styles/animations.css';
+import useFadeIn from '../../hooks/useFadeIn.js';
+import ObjectItem from './ObjectItem.js'; // Đường dẫn tùy thuộc thư mục bạn chọn
+import objectData from './objectData.js';
 
 function Object() {
   const fadeLeftRef = useFadeIn({ threshold: 150 }); // Ref cho div bên trái
@@ -13,7 +13,10 @@ function Object() {
 
   return (
     <div className="p-5">
-      <h1 className="obj-tilte">Object</h1>
+      <div className='d-flex justify-content-center'>
+
+        <h1 className="obj-tilte">Object</h1>
+      </div>
       <div className="row d-flex justify-content-evenly mx-5 px-5">
         <div className="col-lg-6 col-md-6 col-sm-12 ps-5">
           <div ref={fadeLeftRef} className="fade-in-left obj-img d-none d-sm-block"></div>

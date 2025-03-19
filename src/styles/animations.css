@@ -33,3 +33,7 @@
     opacity: 1;
     transform: translateX(0); /* Di chuyển về vị trí ban đầu */
   }
+
+  *{
+    font-family: "Comic Sans MS", "Inter", sans-serif;
+  }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SkillItem({ title, icon, modalKey, onSkillClick }) {
+function SkillsItem({ title, icon, modalKey, onSkillClick }) {
   return (
     <div
       className="col-lg-4 col-md-6 col-sm-12"
@@ -14,4 +14,4 @@ function SkillItem({ title, icon, modalKey, onSkillClick }) {
   );
 }
 
-export default SkillItem;
+export default SkillsItem;

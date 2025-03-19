@@ -1,8 +1,8 @@
 import React from 'react'
+import useFadeIn from '../../hooks/useFadeIn.js';
 
-import '../styles/intro.css';
-import '../styles/animations.css';
-import useFadeIn from '../hooks/useFadeIn.js';
+import './intro.css';
+import '../../styles/animations.css';
 
 function Intro() {
     const fadeLeftRef = useFadeIn({ threshold: 150 }); // Ref cho div bên trái

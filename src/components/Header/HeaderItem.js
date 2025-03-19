@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-const NavItem = ({ text, to, className }) => {
+const HeaderItem = ({ text, to, className }) => {
   return (
     <Link to={to} smooth={true} duration={200}>
       <button 
@@ -15,4 +15,4 @@ const NavItem = ({ text, to, className }) => {
   );
 };
 
-export default NavItem;
+export default HeaderItem;

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/modal.css'
+import './modal.css'
 function Modal(props) {
   const { modal, setModal } = props
 

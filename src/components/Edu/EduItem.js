@@ -1,6 +1,6 @@
 // src/components/EduItem.js
 import React from 'react';
-
+import './edu.css'
 function EduItem({ title, descriptions }) {
   return (
     <div className="col-lg-6 col-sm-12 d-flex flex-column align-items-start">

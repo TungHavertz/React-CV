@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/edu.css'
-import EduItem from '../itemComponents/EduItem.js';
-import eduData from '../data/eduData.js'; 
+import './edu.css'
+import EduItem from './EduItem.js';
+import eduData from './eduData.js'; 
 function Edu() {
   return (
     <div className="edu-bg d-flex flex-column align-items-start justify-content-evenly ">

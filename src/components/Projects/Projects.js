@@ -1,11 +1,11 @@
 // src/components/Projects.js
 import React from 'react';
+import useFadeIn from '../../hooks/useFadeIn.js';
 
-import '../styles/animations.css';
-import useFadeIn from '../hooks/useFadeIn.js';
-import '../styles/project.css';
-import ProjectsItem from '../itemComponents/ProjectItem.js'; // Đường dẫn tùy thuộc thư mục bạn chọn
-import projectsData from '../data/projectData.js';
+import '../../styles/animations.css';
+import './projects.css';
+import ProjectsItem from './ProjectsItem.js';
+import projectsData from './projectsData.js';
 
 function Projects() {
   const fadeRef = useFadeIn({ threshold: 150 });

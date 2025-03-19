@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/animations.css';
-import useFadeIn from '../hooks/useFadeIn.js';
-import '../styles/skills.css';
-import SkillsItem from '../itemComponents/SkillItem.js';
-import skillsData from '../data/skillData.js';
+import '../../styles/animations.css';
+import useFadeIn from '../../hooks/useFadeIn.js';
+import './skills.css';
+import SkillsItem from './SkillsItem.js';
+import skillsData from './skillsData.js';
 
-function Skill({ setModal }) { // Sửa cú pháp từ Skill{ setModal } thành Skill({ setModal })
+function Skills({ setModal }) { // Sửa cú pháp từ Skill{ setModal } thành Skill({ setModal })
   const fadeRef = useFadeIn({ threshold: 150 });
 
   const handleSkillClick = (skill) => {
@@ -32,4 +32,4 @@ function Skill({ setModal }) { // Sửa cú pháp từ Skill{ setModal } thành 
   );
 }
 
-export default Skill;
+export default Skills;

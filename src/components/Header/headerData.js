@@ -1,5 +1,5 @@
 // dataNav.js
-export const navData = {
+export const headerData = {
     title: "Personal Landing Page",
     subtitle: "A welcoming space to showcase my journey, accomplishments, and aspirations.",
     buttons: [

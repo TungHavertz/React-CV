@@ -27,15 +27,15 @@
 }
 
 .modal-item__html {
-  background-image: url('../image/html.png');
+  background-image: url('../../image/html.png');
 }
 
 .modal-item__respon {
-  background-image: url('../image/respon.png');
+  background-image: url('../../image/respon.png');
 }
 
 .modal-item__js {
-  background-image: url('../image/js.png');
+  background-image: url('../../image/js.png');
 }
 
 .modal-bg.active {
