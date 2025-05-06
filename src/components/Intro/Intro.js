@@ -1,7 +1,7 @@
 import React from 'react'
 import useFadeIn from '../../hooks/useFadeIn.js';
 
-import './intro.css';
+import styles from './intro.css';
 import '../../styles/animations.css';
 
 function Intro() {
@@ -18,7 +18,7 @@ function Intro() {
                         <div className='d-flex'>
                             <h4>Email:</h4>
                             <h4>
-                                <a href="mailto:phamtunganh27@gmail.com" className='text-decoration-none ms-1'>phamtunganh27@gmail.com</a>
+                                <a href="mailto:phamtunganh2704@gmail.com" className='text-decoration-none ms-1'>phamtunganh27@gmail.com</a>
                             </h4>
                         </div>
                         <div className='d-flex'>

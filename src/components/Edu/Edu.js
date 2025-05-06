@@ -1,5 +1,5 @@
 import React from 'react'
-import './edu.css'
+import styles from './edu.css'
 import EduItem from './EduItem.js';
 import eduData from './eduData.js'; 
 function Edu() {

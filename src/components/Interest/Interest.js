@@ -9,7 +9,7 @@ import InterestItem from './interestItem.js';
 function Interest() {
 
   return (
-    <div  className=" interest-bg d-flex justify-content-center p-5">
+    <div  className="interest-bg d-flex justify-content-center p-5">
       <div  className=" bg-white w-75 rounded-4">
           <div className="d-flex flex-column align-items-start p-5">
             <h1 className="px-5">My Interesting</h1>

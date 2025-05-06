@@ -3,7 +3,7 @@ import React from 'react';
 
 import useFadeIn from '../../hooks/useFadeIn.js';
 import '../../styles/animations.css';
-import './header.css'
+import styles from './header.css'
 import HeaderItem from './HeaderItem.js';
 import { headerData } from './headerData.js';
 
