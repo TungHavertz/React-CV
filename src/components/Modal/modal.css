@@ -1,0 +1,78 @@
+.modal-bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.modal-item__html,
+.modal-item__respon,
+.modal-item__js {
+  min-width: 60%;
+  min-height: 84%;
+  width: auto;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  position: relative; /* Để nút Next nằm trong modal */
+}
+
+.modal-item__html {
+  background-image: url('../../image/html.png');
+}
+
+.modal-item__respon {
+  background-image: url('../../image/respon.png');
+}
+
+.modal-item__js {
+  background-image: url('../../image/js.png');
+}
+
+.modal-bg.active {
+  display: flex;
+}
+
+.modal-item__html.active,
+.modal-item__respon.active,
+.modal-item__js.active {
+  display: block;
+  animation: fadeInScale 0.5s ease forwards;
+  z-index: 30;
+}
+
+.next-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 40;
+}
+
+.next-btn:hover {
+  background-color: #0056b3;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}                                                            

@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Định nghĩa các biến màu sắc ở :root để sử dụng toàn cục */
+:root {
+    --primary-color: #443728; /* Màu chính */
+    --shadow-color: rgba(0, 0, 0, 0.6); /* Màu đổ bóng */
+    --line-color: #ccc; /* Màu đường kẻ */
+    --number-bg: #ebe2e0; /* Màu nền của số */
+    --content-bg: #fff; /* Màu nền của content */
+}
+
+/* Áp dụng biến vào các class */
+
+.obj-wrap{
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.obj-tilte {
+    color: var(--primary-color);
+}
+
+.obj-img {
+    background-image: url(../../image/obj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 180px;
+    width: 320px;
+    height: 740px;
+    border: solid 2px var(--primary-color);
+    box-shadow: 10px 10px 20px var(--shadow-color);
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: var(--line-color);
+    left: 20px;
+    top: 0;
+    bottom: 0;
+}
+
+.number {
+    width: 30px;
+    height: 30px;
+    background-color: var(--number-bg);
+    font-weight: bold;
+    color: var(--primary-color);
+    left: 8px;
+    border-radius: 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: var(--line-color);
+    left: 30px;
+    top: 15px;
+}
+
+.content {
+    width: 460px;
+    background-color: var(--content-bg);
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px var(--shadow-color);
+    color: var(--primary-color);
+    z-index: 1;
+    transition: transform 0.6s; /* Di chuyển transition ra ngoài để áp dụng cả khi hover và bỏ hover */
+}
+
+.content:hover {
+    transform: scale(1.1);
+}

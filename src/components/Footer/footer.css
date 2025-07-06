@@ -1,0 +1,46 @@
+
+.footer-bg {
+    background-color: #AF8D86;
+    min-height: 60vh;
+    width: auto;
+}
+
+.footer-title {
+    color: #260c1a;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-link:hover {
+    cursor: pointer;
+    opacity: 0.6;  
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 200%;
+    opacity: 1; /* Trạng thái mặc định: hiện rõ hoàn toàn */
+    transition: all 0.4s ease-in-out 0s; /* Hiệu ứng chuyển đổi áp dụng cho mọi trạng thái */
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.4s ease-in-out 0s;
+
+}
+
+.thank {
+    color: white;
+    text-transform: uppercase; 
+    font-size: 36px;
+}
+
+.text-light:hover{
+    opacity: 0.6;
+    transition: all 0.4s ease-in-out 0s;
+
+}

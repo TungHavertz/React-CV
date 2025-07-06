@@ -1,0 +1,55 @@
+.skill-wrap {
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+h1 {
+    color: #453829;
+    padding-bottom: 40px;
+}
+
+.skill-item {
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBE2E0;
+    border: solid 2px #D7CFCD;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4); /* Đổ bóng với độ mờ và màu RGBA */
+
+}
+
+
+.skill-item:hover .skill-title {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.skill-item:hover .skill-icon {
+    filter: blur(25px);
+}
+
+
+.skill-title {
+    position: absolute;
+    font-size: 36px;
+    font-weight: 500 ;
+    opacity: 0;
+    transform: translate(0, 100%);
+    transition: all 0.5s;
+}
+
+.skill-icon {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    font-size: 500%;
+
+}
+
+

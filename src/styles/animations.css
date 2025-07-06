@@ -1,0 +1,39 @@
+/* Hiệu ứng hiện tại (từ dưới lên) */
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1.6s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Hiệu ứng từ phải sang trái */
+  .fade-in-right {
+    opacity: 0;
+    transform: translateX(50px); /* Bắt đầu từ bên phải */
+    transition: all 1.6s ease-out;
+  }
+  
+  .fade-in-right.visible {
+    opacity: 1;
+    transform: translateX(0); /* Di chuyển về vị trí ban đầu */
+  }
+  
+  /* Hiệu ứng từ trái sang phải */
+  .fade-in-left {
+    opacity: 0;
+    transform: translateX(-50px); /* Bắt đầu từ bên trái */
+    transition: all 1.6s ease-out;
+  }
+  
+  .fade-in-left.visible {
+    opacity: 1;
+    transform: translateX(0); /* Di chuyển về vị trí ban đầu */
+  }
+
+  *{
+    font-family: "Comic Sans MS", "Inter", sans-serif;
+  }

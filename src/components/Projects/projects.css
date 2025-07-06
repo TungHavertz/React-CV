@@ -1,0 +1,43 @@
+
+.project-bg {
+    background-image: url('../../image/anh6.jpg');
+    min-height: 60vh;
+    width: auto;
+    background-size: cover;
+    background-color: black;
+    position: relative; /* Để tạo lớp phủ tương đối */
+    margin-top: 4%;
+}
+
+.project-bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4); /* Màu đen với độ mờ 0.5 */
+    z-index: 1; /* Đảm bảo lớp phủ ở trên hình nền */
+}
+
+.project-wrap {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.project-title,
+.project-text {
+    color: #4C4031;
+
+}
+
+.project-item .project-text {
+    opacity: 1; /* Trạng thái mặc định: hiện rõ hoàn toàn */
+    transition: all 0.4s ease-in-out 0s; /* Hiệu ứng chuyển đổi áp dụng cho mọi trạng thái */
+}
+
+.project-item:hover .project-text{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.4s ease-in-out 0s;
+}
