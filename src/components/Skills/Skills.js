@@ -15,7 +15,7 @@ function Skills({ setModal }) { // Sửa cú pháp từ Skill{ setModal } thành
   return (
     <div className="skill-wrap d-flex justify-content-center py-5">
       <div className="d-flex flex-column align-items-start">
-        <h1>Skills</h1>
+        <h1>Certificates</h1>
         <div ref={fadeRef} className="fade-in row gy-4">
           {skillsData.map((skill, index) => (
             <SkillsItem

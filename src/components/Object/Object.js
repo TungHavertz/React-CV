@@ -17,8 +17,8 @@ function Object() {
         <h1 className="obj-tilte">Object</h1>
       </div>
       <div className="row d-flex justify-content-evenly mx-5 px-5">
-        <div className="col-lg-6 col-md-6 col-sm-12 ps-5">
-          <div ref={fadeLeftRef} className="fade-in-left obj-img d-none d-sm-block"></div>
+        <div className="col-lg-6 col-md-6 col-sm-12 ps-5 d-none d-lg-block ">
+          <div ref={fadeLeftRef} className="fade-in-left obj-img "></div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12">
           <div ref={fadeRightRef} className= "fade-in-right timeline w-100 position-relative ">

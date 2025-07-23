@@ -15,20 +15,20 @@ function Intro() {
                     <div ref={fadeLeftRef} className='fade-in-left d-flex flex-column align-items-start mt-4 pt-3'>
                         <h1>Introduction</h1>
                         <h4>Name: Pham Tung Anh</h4>
-                        <div className='d-flex'>
+                        <div className='d-flex '>
                             <h4>Email:</h4>
-                            <h4>
+                            <h4 className='text-break'>
                                 <a href="mailto:tunganhpham2704@gmail.com" className='text-decoration-none ms-1'>tunganhpham2704@gmail.com</a>
                             </h4>
                         </div>
-                        <div className='d-flex'>
+                        <div className='d-flex '>
                             <h4>Phone:</h4>
                             <h4>
                                 <a href="tell:+0344956830" className='text-decoration-none ms-1'>0344956830</a>
                             </h4>
                         </div>
                     </div>  
-                    <div ref={fadeRightRef} className='fade-in-right intro-img'></div>
+                    <div ref={fadeRightRef} className='fade-in-right intro-img d-none d-lg-block'></div>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const skillData = [
       modalKey: "js"
     },
     {
-      title: "Responsive design",
+      title: "Responsive ",
       icon: "fa-solid fa-desktop",
       modalKey: "respon"
     },

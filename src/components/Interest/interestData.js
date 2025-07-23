@@ -4,19 +4,19 @@ const interestData = [
       icon: "fa-solid fa-book-open",
       title: "Learn new technologies",
       description:
-        "Embracing a lifelong journey of learning keeps the mind sharp and the spirit curious, opening doors to endless possibilities and personal growth."
+        "Lifelong learner: curious, adaptable, and driven to grow."
     },
     {
       icon: "fa-solid fa-house-chimney-window",
       title: "Spend time with family and friend",
       description:
-        "Spending quality time with family and friends is like watering the roots of happiness—it nurtures love, creates lasting memories, and strengthens the bonds that truly matter in life."
+        "Quality time with loved ones deepens bonds and creates lasting memories.."
     },
     {
       icon: "fa-solid fa-futbol",
-      title: "Play Football and Guitar",
+      title: "Football, Motobike and Guitar",
       description:
-        "Playing football fuels my passion for teamwork and adrenaline, while strumming the guitar nurtures my creativity and peace—together, they create a perfect rhythm of energy and serenity for a fulfilling life."
+        "Football fuels my teamwork, motorcycling brings speed and freedom, and guitar playing adds creativity—balancing energy and serenity in life."
     }
   ];
   

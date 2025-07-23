@@ -12,7 +12,7 @@ function Projects() {
   return (
     <div className="project-bg d-flex justify-content-center ">
       <div ref={fadeRef} className="fade-in d-flex flex-column align-items-start justify-content-evenly z-2 project-wrap">
-        <h1 className="project-title">Personal Project</h1>
+        <h1 className="project-title">Projects</h1>
         <div className=" row gy-5">
           {projectsData.map((project, index) => (
             <ProjectsItem
