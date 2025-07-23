@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-cv/static/css/main.515ba292.css",
-    "main.js": "/react-cv/static/js/main.325faa32.js",
+    "main.css": "/react-cv/static/css/main.976ffc4a.css",
+    "main.js": "/react-cv/static/js/main.26ef3533.js",
     "static/js/453.a5f36ace.chunk.js": "/react-cv/static/js/453.a5f36ace.chunk.js",
     "static/media/anh6.jpg": "/react-cv/static/media/anh6.f2a62f248c095b92ba82.jpg",
     "static/media/respon.png": "/react-cv/static/media/respon.06e64639f38ba1e4b8a1.png",
@@ -12,12 +12,12 @@
     "static/media/anh4.jpg": "/react-cv/static/media/anh4.bbcfe872d1829afefe8e.jpg",
     "static/media/anh3.jpg": "/react-cv/static/media/anh3.627d5d74b705c6d843b6.jpg",
     "index.html": "/react-cv/index.html",
-    "main.515ba292.css.map": "/react-cv/static/css/main.515ba292.css.map",
-    "main.325faa32.js.map": "/react-cv/static/js/main.325faa32.js.map",
+    "main.976ffc4a.css.map": "/react-cv/static/css/main.976ffc4a.css.map",
+    "main.26ef3533.js.map": "/react-cv/static/js/main.26ef3533.js.map",
     "453.a5f36ace.chunk.js.map": "/react-cv/static/js/453.a5f36ace.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.515ba292.css",
-    "static/js/main.325faa32.js"
+    "static/css/main.976ffc4a.css",
+    "static/js/main.26ef3533.js"
   ]
 }
